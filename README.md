@@ -7,8 +7,6 @@ This is a backend application built using the [Gin Web Framework](https://github
 1. api - Gin application.
 2. postgresql - PostgreSQL server.
 3. pgadmin - PGAdmin to inspect DB stracture and data.
-4. mailhog - fake SMTP server for mail interception during the development.
-5. stunnel - Proxy to add encryption for mailhog. gomail need activated TLS.
 
 ## Features
 
@@ -38,7 +36,6 @@ Once started, the following services are available:
 
 1. http://localhost:8083/ - Backend
 2. http://localhost:8083/swagger/index.html - API Documentation Swagger
-3. http://localhost:8085/ - MailHog
 4. http://localhost:8086/ - PGAdmin4
 
 Attention. Documentation Swagger is not generated automatically. You need generate it when annotations are updated (see command below in "Useful commands")
